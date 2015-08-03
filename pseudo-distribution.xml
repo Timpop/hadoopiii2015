@@ -23,7 +23,7 @@ core-site.xml
     <value>hdfs://localhost</value>
   </property>
 
-mapred-site.xml
+mapred-site.xml #cp mapred-site.xml mapred-site.xml template
  ==========================
  <property>
    <name>mapreduce.framework.name</name>
