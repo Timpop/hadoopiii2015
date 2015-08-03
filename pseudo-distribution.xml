@@ -20,7 +20,7 @@ core-site.xml
  ==========================
  <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://localhost</value>
+    <value>hdfs://localhost</value>   #localhost為使用者帳號
   </property>
 
 mapred-site.xml #cp mapred-site.xml mapred-site.xml template
