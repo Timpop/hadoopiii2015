@@ -1,8 +1,11 @@
+ 以下檔案在locahost/hadoop
+ 放在檔案的configuration中
+ 
  hdfs-site.xml
  ==========================
  <property>
     <name>dfs.replication</name>
-    <value>1</value>
+    <value>1</value>  #1表各地只備分ㄧ份
   </property>
   
   
