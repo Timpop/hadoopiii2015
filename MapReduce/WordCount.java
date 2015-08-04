@@ -58,9 +58,9 @@ public class WordCount {
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
 		//FileInputFormat.addInputPath(job, new Path(
-		//		"hdfs://localhost:9000/data/pg1104.txt"));
+		//		"hdfs://localhost:8020/data/wc.txt"));
 		//FileOutputFormat.setOutputPath(job, new Path(
-		//		"hdfs://localhost:9000/out8/"));
+		//		"hdfs://localhost:8020/out/"));
 		FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
