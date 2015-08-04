@@ -16,7 +16,7 @@
    <value>mapreduce_shuffle</value>
 </property>
 
-core-site.xml
+core-site.xml #設置hdfs所在地
  ==========================
  <property>
     <name>fs.defaultFS</name>
